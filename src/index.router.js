@@ -11,7 +11,7 @@ import morgan from "morgan";
 import orderRouter from "./modules/order/order.router.js";
 const bootstrap = (app, express) => {
   // global middleware
-  app.use(morgan("dev"));
+  app.use(morgan("production"));
   app.use(express.json());
   // Routes
 
