@@ -62,11 +62,8 @@ export const deleteProduct = asyncHandler(async (req, res, next) => {
 // get all products
 export const allProducts = asyncHandler(async (req, res, next) => {
   // const { keyword } = req.query;
-  const products = await productModel
-    .find({ ...req.query })
-    .paginate(req.query.page)
-    .select(req.query.fields)
-    .sort(req.query.sort);
+  const products = await productModel;
+
   return res.json({ message: "All Products you searched ", results: products });
 });
 // single product
