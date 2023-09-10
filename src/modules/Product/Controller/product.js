@@ -62,9 +62,9 @@ export const deleteProduct = asyncHandler(async (req, res, next) => {
 // get all products
 export const allProducts = asyncHandler(async (req, res, next) => {
   // const { keyword } = req.query;
-  const products = await productModel;
+  const products = await productModel.find();
 
-  return res.json({ message: "All Products you searched ", results: products });
+  return res.json({ message: "All Products  ", result: products });
 });
 // single product
 
