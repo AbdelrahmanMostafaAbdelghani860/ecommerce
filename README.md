@@ -1,7 +1,7 @@
 
  # **Overview**
 
-## #RRGGBB This project is an e-commerce platform designed to cater to two types of users: administrators (admins) and customers. Admins have the capabilities to manage product listings and perform critical administrative tasks such as adding, editing, and deleting products. They can also create discount coupons and track inventory levels. Customers can browse products, add items to their cart, and complete purchases with integrated payment options.
+##  This project is an e-commerce platform designed to cater to two types of users: administrators (admins) and customers. Admins have the capabilities to manage product listings and perform critical administrative tasks such as adding, editing, and deleting products. They can also create discount coupons and track inventory levels. Customers can browse products, add items to their cart, and complete purchases with integrated payment options.
 
 Features
 Admins
